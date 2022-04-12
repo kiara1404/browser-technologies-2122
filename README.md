@@ -121,7 +121,7 @@ Lezen voor les 4 📖
 - [Be progressive by Jeremy Keith](https://adactio.com/journal/7706)
 
 #### Vrijdag 31 maart
-
+ 
 Vrijdag bespreken we in groepjes de vorderingen voor de eindopdracht. Zorg dat je vandaag weet welke browsers (en devices) jij gaat testen.
 
 | Vrijdag 31/3 | Wat  |
