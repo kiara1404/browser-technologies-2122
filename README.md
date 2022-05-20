@@ -51,7 +51,13 @@ Het doel van deze opdracht is te leren hoe je een online interactieve toepassing
 * je leert Browser Technologies te onderzoeken, testen en implementeren als enhancement.
 * je leert hoe je Feature Detection doet en wat je kan doen als een 'feature' niet werkt of wordt ondersteund.
 
+<<<<<<< HEAD
 ### 🙋🏻‍♀️User case
 
+=======
+#### Vrijdag 31 maart
+ 
+Vrijdag bespreken we in groepjes de vorderingen voor de eindopdracht. Zorg dat je vandaag weet welke browsers (en devices) jij gaat testen.
+>>>>>>> 406175988e3593ac3564938c87888c806805c9f9
 
 ## © License
