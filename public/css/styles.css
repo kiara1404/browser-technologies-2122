@@ -1,13 +1,73 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('/public/fonts//Roboto-Regular.ttf');
+}
 
 body {
     background-color: rgb(121, 206, 170);
     background: linear-gradient(to right, rgb(129, 201, 171), rgb(123, 188, 250), rgb(173, 124, 238));
+    font-family: 'Roboto', sans-serif;
+    color: rgb(37, 37, 37);
+    font-size: 1em;
 }
 
 section{
-    width: 50vw;
+    width: 450px;
+    min-width: 400px;
     margin: 0 auto;
+}
+
+h1{
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+
+fieldset{
+    width: 450px;
+    border: 2px dotted rgb(37, 37, 37);;
+}
+
+legend h2{
+    width: 320px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+.group {
+    margin-bottom: 20px;
+}
+.group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"]{
+    width: 200px;
+    height: 25px;
+}
+
+select, input[type="date"]{
+    height: 25px;
+    width: 170px;
+    margin-bottom: 15px;
+    font-family: 'roboto';
+}
+
+input[type="radio"]{
+    margin-bottom: 15px;
+}
+
+textarea{
+    margin: 5px 0 15px 0;
+    font-family: 'roboto';
+    width: 340px;
+    height: 70px;
 }
