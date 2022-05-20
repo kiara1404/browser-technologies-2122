@@ -5,16 +5,15 @@ _Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt ti
 <!-- <img src="" alt=""> -->
 
 ## Inhoudsopgave
-* [Installatie](https://github.com/kiara1404/browser-technologies-2122#Installatie)
-* [Concept](https://github.com/kiara1404/browser-technologies-2122#Concept)
-* [Wireflow]()
-* [Features]()
-* [Progressive Enhancement]()
-* [Browser Tests]()
-* [De opdracht]()
-* [Leerdoelen]()
-* [Rubric]()
-* [License]()
+* [Installatie](https://github.com/kiara1404/browser-technologies-2122#%EF%B8%8F-installatie)
+* [Concept](https://github.com/kiara1404/browser-technologies-2122#concept)
+* [Wireflow](https://github.com/kiara1404/browser-technologies-2122#-wireflow)
+* [Features](https://github.com/kiara1404/browser-technologies-2122#features)
+* [Progressive Enhancement](https://github.com/kiara1404/browser-technologies-2122#progressive-enhancement)
+* [Browser Tests](https://github.com/kiara1404/browser-technologies-2122#browser-tests)
+* [De opdracht](https://github.com/kiara1404/browser-technologies-2122#de-opdracht)
+* [Rubric](https://github.com/kiara1404/browser-technologies-2122#rubric)
+* [License](https://github.com/kiara1404/browser-technologies-2122#-license)
 
 
 ## ⚙️ Installatie
@@ -70,6 +69,7 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
 
 * Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
+## Rubric
 
 ## © License
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
