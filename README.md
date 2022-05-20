@@ -3,6 +3,7 @@ _Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt ti
 
 ## 🌐 Live demo
 <!-- <img src="" alt=""> -->
+https://browser-technologies-kiara.herokuapp.com/
 
 ## Inhoudsopgave
 * [Installatie](https://github.com/kiara1404/browser-technologies-2122#%EF%B8%8F-installatie)
@@ -47,6 +48,14 @@ nodemon run dev
 ### Pleasurable layer
 
 ## 🧪Browser Tests
+Ik heb mijn applicatie bekeken op verschillende devices.
+
+* Google Chrome op  Macbook Pro 2019 
+* Firefox op Macbook Pro 2019
+* Safari op iPhone 12 Pro Max
+* Samsung internet op Samsung S7
+* Internet Explorer op Microsoft Surface uit 2013
+
 
 ## De opdracht
 Voor de eindopdracht ontwerp en maak je een interactieve toepassing volgens het principe van Progressive Enhancement. Zorg dat alle gebruikers, met alle browsers, in iedere context de toepassing zo goed mogelijk te zien, horen en/of voelen krijgen. De meest 'enhanced' versie is 'delightful UX', mooi en prettig om te gebruiken.
