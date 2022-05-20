@@ -1,3 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(121, 206, 170);
+    background: linear-gradient(to right, rgb(129, 201, 171), rgb(123, 188, 250), rgb(173, 124, 238));
+}
+
+section{
+    width: 50vw;
+    margin: 0 auto;
+}
