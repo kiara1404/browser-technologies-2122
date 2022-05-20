@@ -1,5 +1,5 @@
 # Minor Webdesign & Webdevelopment Enquête
-_Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt aan de minor Webdesign & Webdevelopment_
+_Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt tijdens de minor Webdesign & Webdevelopment aan de Hogeschool van Amsterdam_
 
 ## 🌐 Live demo
 <!-- <img src="" alt=""> -->
@@ -18,16 +18,17 @@ _Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt aa
 
 
 ## ⚙️ Installatie
+### Clone this repo
 ```
-Clone this repo 
+git clone https://github.com/kiara1404/browser-technologies-2122
 ```
-
+### Install all packages
 ```
 NPM install
 ```
-
+### Run application locally
 ```
-node index.js
+nodemon run dev
 ```
 
 ## 📋Concept
