@@ -84,10 +84,10 @@ textarea{
 }
 
 button[type="submit"]{
-    display: block;
-    margin: 30px auto;
-    width: 200px;
-    height: 45px;
+    display: inline-block;
+    margin: 30px;
+    width: 150px;
+    height: 35px;
     background-color: rgb(215, 153, 250);
     border: none;
     font-size: 1.2em;
@@ -102,18 +102,17 @@ button[type="submit"]:hover{
     border: none;
     
 }
-
-fieldset{
-    display: none;
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-fieldset:first-of-type{
-    display: block;
+.goBack{
+    margin: 40px;
+    color: rgb(37, 37, 37);
 }
 
-.show{
-    display: block !important;
-}
 
 /*MAX 600 PX*/
 @media only screen and (max-width: 400px) {
