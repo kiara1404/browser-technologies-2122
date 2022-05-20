@@ -35,8 +35,16 @@ nodemon run dev
 ## ↳ Wireflow
 <!-- <img src="" alt=""> -->
 ## Features
+* Invullen formulier
+* Versturen formulier
+* Gegevens moeten opgeslagen kunnen worden om later verder te gaan
 
 ## Progressive Enhancement
+### Core Layer ( _HTML_ )
+
+### Usable layer
+
+### Pleasurable layer
 
 ## 🧪Browser Tests
 
