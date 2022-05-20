@@ -46,13 +46,28 @@ Voor de eindopdracht ontwerp en maak je een interactieve toepassing volgens het 
 ### Doel van de opdracht
 Het doel van deze opdracht is te leren hoe je een online interactieve toepassing kan maken met behulp van Progressive Enhancement en Feature Detection zodat die het altijd doet ...
 
-### 🧠Leerdoelen
+### 🧠 Leerdoelen
 * je leert wat Progressive enhancement is en hoe je dit kan toepassen.
 * je leert Browser Technologies te onderzoeken, testen en implementeren als enhancement.
 * je leert hoe je Feature Detection doet en wat je kan doen als een 'feature' niet werkt of wordt ondersteund.
 
-<<<<<<< HEAD
-### 🙋🏻‍♀️User case
+### 🙋🏻‍♀️ User case
+Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+
+### Vereisten voor de Enquete
+* Studentgegevens (naam + nummer) verplicht
+
+* Per vak
+    * naam
+    * docent(en)
+    * weken waarin je het vak deed
+    * beoordeling op schaal 1-10 van
+    * lesstof (hoe moeilijk is het)
+    * uitleg (hoe duidelijk is het uitgelegd)
+    * eigen inzicht (hoe goed snap je het)
+* Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
+
+Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 
 ## © License
