@@ -18,15 +18,15 @@ _Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt ti
 
 
 ## ⚙️ Installatie
-### Clone this repo
+##### Clone this repo
 ```
 git clone https://github.com/kiara1404/browser-technologies-2122
 ```
-### Install all packages
+##### Install all packages
 ```
 NPM install
 ```
-### Run application locally
+##### Run application locally
 ```
 nodemon run dev
 ```
