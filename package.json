@@ -1,0 +1,19 @@
+{
+  "name": "browser-technologies-2122",
+  "version": "1.0.0",
+  "description": "Voor de eindopdracht ontwerp en maak je een interactieve toepassing volgens het principe van Progressive Enhancement. Zorg dat alle gebruikers, met alle browsers, in iedere context de toepassing zo goed mogelijk te zien, horen en/of voelen krijgen. De meest 'enhanced' versie is 'delightful UX', mooi en prettig om te gebruiken.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiara1404/browser-technologies-2122.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiara1404/browser-technologies-2122/issues"
+  },
+  "homepage": "https://github.com/kiara1404/browser-technologies-2122#readme"
+}
