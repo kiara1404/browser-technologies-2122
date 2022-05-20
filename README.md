@@ -67,7 +67,8 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
     * eigen inzicht (hoe goed snap je het)
 * Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
 
-Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+* Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 
 ## © License
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
