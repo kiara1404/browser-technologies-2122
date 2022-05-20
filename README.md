@@ -5,8 +5,8 @@ _Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt ti
 <!-- <img src="" alt=""> -->
 
 ## Inhoudsopgave
-* [Installatie]()
-* [Concept]()
+* [Installatie](https://github.com/kiara1404/browser-technologies-2122#Installatie)
+* [Concept](https://github.com/kiara1404/browser-technologies-2122#Concept)
 * [Wireflow]()
 * [Features]()
 * [Progressive Enhancement]()
