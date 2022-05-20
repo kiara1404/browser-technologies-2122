@@ -4,7 +4,7 @@ _Deze opdracht is gemaakt voor het vak Browser Technologies dat gegeven wordt aa
 ## 🌐 Live demo
 <!-- <img src="" alt=""> -->
 
-# Inhoudsopgave
+## Inhoudsopgave
 * [Installatie]()
 * [Concept]()
 * [Wireflow]()
