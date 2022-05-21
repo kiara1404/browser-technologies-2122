@@ -36,7 +36,7 @@ app.post('/hcd', postHCD)
 function index(req, res) {
     res.render('pages/index')
 }
-function renderWafs(req, res){
+function renderWafs(req, res) {
     res.render('pages/wafs')
 }
 function renderCSS(req, res) {

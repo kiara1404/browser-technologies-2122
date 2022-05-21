@@ -1,30 +1,60 @@
 * {
     box-sizing: border-box;
 }
+
+
+@supports (background: linear-gradient(to right bottom, rgb(129, 201, 171), rgb(123, 188, 250), rgb(173, 124, 238), rgb(123,34,223))){
+    body{
+    background: linear-gradient(to right bottom, rgb(129, 201, 171), rgb(123, 188, 250), rgb(173, 124, 238), rgb(123,34,223));
+    background-size: cover;
+    background-attachment: fixed;
+
+    }
+}
+
+@supports selector(fieldset:focus) {
+    input:focus, textarea:focus, select:focus, input[type='radio']:focus + label{
+    border: 5px dotted rgb(109, 230, 179);
+
+    }
+}
+
+@supports selector(::placeholder){
+    input::placeholder, textarea::placeholder{
+        font-size: 1rem;
+        font-style: italic;
+    }
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    }
+
+
+
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-Regular.ttf');
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 body {
     width: 100%;
     background-color: rgb(121, 206, 170);
-    background: linear-gradient(to right bottom, rgb(129, 201, 171), rgb(123, 188, 250), rgb(173, 124, 238), rgb(123,34,223));
-    background-size: cover;
-    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
     color: rgb(37, 37, 37);
     font-size: 1em;
 }
 
 section{
-    width: 450px;
+    width: 420px;
     min-width: 400px;
     margin: 0 auto;
 }
 
 h1{
-    width: 450px;
+    width: 420px;
     margin: 0 auto;
     padding-top: 40px;
     font-size: 2.2em;
@@ -102,27 +132,47 @@ button[type="submit"]:hover{
     border: none;
     
 }
-.btns{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
 
 .goBack{
     margin: 40px;
     color: rgb(37, 37, 37);
 }
 
-
-/*MAX 600 PX*/
-@media only screen and (max-width: 400px) {
-   
-   form{
-       max-width: 400px;
-   }
-    section, h1, fieldset {
-        width: 350px;
-        overflow-x: hidden;
-    }
-    
+input[type="radio"]{
+    opacity: 0;
 }
+
+input[type='radio'] + label {
+    background-color: #ffffff;
+    padding: 10px 12px;
+    margin-left: -25px;
+    cursor: pointer;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+input[type='radio']:checked + label {
+    color: #ffffff;
+    background-color: rgb(140, 80, 197);
+    border: 3px dotted #fff;
+    transition: 0.5s ease-in;
+}
+
+input[type='radio']:hover + label {
+    background-color: rgba(140, 80, 197);
+    color: #fff;
+
+}
+.error{
+    border: 2px dotted  rgb(214, 81, 81);
+    background-color:  rgba(255, 92, 92, 0.555);
+    display: none;
+}
+
+.error p{
+    margin-left: 30px;
+}
+
+.show{
+    display: block;
+}
+
