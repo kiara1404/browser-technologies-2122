@@ -51,6 +51,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: rgb(37, 37, 37);
     font-size: 1em;
+    
 }
 
 section{
@@ -69,6 +70,9 @@ h1{
     text-align: left;
 }
 
+form, h1 {
+    animation: opacity 1s;
+}
 
 fieldset{
     width: 450px;
@@ -184,4 +188,13 @@ input[type='radio']:hover + label {
 
 .invalid{
     border: 2px dotted rgb(214, 81, 81);;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
