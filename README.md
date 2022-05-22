@@ -98,11 +98,12 @@ De Samsung S7 komt volgens mij uit 2016 en doet het nog erg goed. Ik merkte dat 
 * #### Internet Explorer 6 op Windows XP Virtual Machine
 Ik kon helaas door Corona niet op school testen met oude devices en niemand in mijn omgeving had een hele oude smartphone waarop ik mij applicatie kon testen. Dus ik heb een virtual machine aangemaakt op mijn laptop en daar laat ik Windows XP op draaien. Daar krijg je standaard Internet Explorer 6 bij.
 <img src="wiki-img/xp.png" alt="">
-Hier kwam ik pas achter hoe fijn wij het hebben met al onze nieuwe devices. Het formulier is wel bruikbaar, je kan het gewoon invullen en versturen. 
-    * font wordt niet ingeladen
-    * gradient werkt niet meer
+Hier kwam ik pas achter hoe fijn wij het hebben met al onze nieuwe devices. Het formulier is wel bruikbaar, je kan het gewoon invullen en versturen.  
+
+    * Font wordt niet ingeladen
+    * Gradient werkt niet meer
     * Algehele styling is anders > knoppen niet gestyled en op verkeerde plek
-    * required werkt niet meer
+    * Required werkt niet meer
     * error melding werkt niet meer
 
 
