@@ -30,6 +30,8 @@ NPM install
 nodemon run dev
 ```
 
+## 📋Concept
+
 ## ↳ Wireflow
 <!-- <img src="" alt=""> -->
 ## Features
@@ -39,12 +41,12 @@ nodemon run dev
 
 ## Progressive Enhancement
 ### Core Layer ( _HTML_ )
-<img src="wiki-img/html.png" alt="">
+<img src="wiki-img/html.png" alt="" width="500px">
 Ik ben begonnen met pure HTML. Dit om ervoor te zorgen dat de basis goed en bruikbaar zou zijn. Ik heb wel wat minder goede practices moeten toevoegen zodat de layout bij elke laag hetzelfde eruit zou zien.       
 Normaal gesproken zijn `input` en `label` elementen inline. Ik wilde graag alles onder elkaar hebben dus heb ik er `div` elementen omheen gezet of soms zelfs stiekem een `br`
 
 ### Usable layer
-<img src="wiki-img/css.png" alt="">
+<img src="wiki-img/css.png" alt="" width="500px">
 Ik ben begonnen met het stylen van de pagina met de achtergrondkleur. Ik wilde een vrij neutrale kleur, dus koos ik voor een lichtgroen. Ik ben later wel overgegaan op een leuk gradient effect.
 
 Ik heb zoveel mogelijk met CSS proberen op te lossen en visueel aantrekkelijk te maken.
@@ -55,7 +57,7 @@ Ik heb zoveel mogelijk met CSS proberen op te lossen en visueel aantrekkelijk te
 * animation bij (re)load op de body
 
 ### Pleasurable layer
-<img src="wiki-img/js.png" alt="">
+<img src="wiki-img/js.png" alt="" width="500px">
 Voor deze laag wilde ik graag zorgen dat wanneer de gebruiker niet alle velden van het formulier heeft ingevuld, hier een melding over krijgt én dat de velden die nog leeg zijn, roodgekleurd worden. Zo kan je precies zien wat je nog moet invullen.
 
 ## 🧪Browser Tests
