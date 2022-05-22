@@ -35,25 +35,24 @@ app.post('/bt', postBT)
 app.post('/rtw', postRTW)
 app.post('/hcd', postHCD)
 
-
-
+let stringData;
 const dataFromEnqete = (req) => {
     return {
         "docent1": req.body.docent1,
         "docent2": req.body.docent2,
-        "startPeriode": req.body['start-periode'],
-        "eindPeriode": req.body['eind-periode'],
+        "startPeriode": req.body.startPeriode,
+        "eindPeriode": req.body.eindPeriode,
         "beoordeling": req.body.beoordeling,
         "moeilijkheid": req.body.moeilijkheid,
-        "moeilijkheidToelichting": req.body['moeilijkheid-toelichting'],
+        "moeilijkheidToelichting": req.body.moeilijkheidToelichting,
         "uitleg": req.body.uitleg,
-        "uitlegToelichting": req.body['uitleg-toelichting'],
+        "uitlegToelichting": req.body.uitlegToelichting,
         "inzicht": req.body.inzicht,
-        "inzichtToelichting": req.body['inzicht-toelichting']
+        "inzichtToelichting": req.body.inzichtToelichting
     }
 }
 
-let stringData;
+
 
 
 function index(req, res) {
@@ -68,27 +67,71 @@ function index(req, res) {
 }
 
 function renderWafs(req, res) {
-    res.render('pages/wafs')
+    fs.readFile('public/json/wafs.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/wafs', { wafs: surveyData })
+    })
 }
+
 function renderCSS(req, res) {
-    res.render('pages/css')
+    fs.readFile('public/json/css.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/css', { css: surveyData })
+    })
 }
 function renderPWA(req, res) {
-    res.render('pages/pwa')
+    fs.readFile('public/json/pwa.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/pwa', { pwa: surveyData })
+    })
 }
 function renderBT(req, res) {
-    res.render('pages/bt')
+    fs.readFile('public/json/bt.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/bt', { bt: surveyData })
+    })
 }
+
 function renderRTW(req, res) {
-    res.render('pages/rtw')
+    fs.readFile('public/json/rtw.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/rtw', { rtw: surveyData })
+    })
 }
+
 function renderHCD(req, res) {
-    res.render('pages/hcd')
+    fs.readFile('public/json/hcd.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/hcd', { hcd: surveyData })
+    })
 }
 
 
 function postWafs(req, res) {
-
     const student = {
         "name": req.body.name,
         "studentId": req.body.studentId
@@ -96,37 +139,65 @@ function postWafs(req, res) {
     stringData = JSON.stringify(student);
     console.log(stringData)
 
-    fs.writeFile('public/json/student.json', stringData, (err) => {
+    fs.writeFile('public/json/student.json', stringData, (err, data) => {
+        if (data) {
+            string = JSON.parse(data)
+        }
         if (err) {
             console.log(err)
         }
     });
-    res.render('pages/wafs')
+    fs.readFile('public/json/wafs.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/wafs', { wafs: surveyData })
+    })
 };
 
 function postCSS(req, res) {
     const wafs = dataFromEnqete(req);
     stringData = JSON.stringify(wafs)
 
-    fs.writeFile('public/json/wafs.json', stringData, (err) => {
+    fs.writeFile('public/json/wafs.json', stringData, (err, data) => {
         if (err) {
             console.log(err)
         }
     });
-    res.render('pages/css')
+    fs.readFile('public/json/css.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/css', { css: surveyData })
+    })
 }
 
 
 function postPWA(req, res) {
     const css = dataFromEnqete(req);
     stringData = JSON.stringify(css)
+    console.log(stringData)
 
-    fs.writeFile('public/json/css.json', stringData, (err) => {
+    fs.writeFile('public/json/css.json', stringData, (err, data) => {
+        if (data) {
+            string = JSON.parse(data)
+        }
         if (err) {
             console.log(err)
         }
     });
-    res.render('pages/pwa')
+    fs.readFile('public/json/pwa.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/pwa', { pwa: surveyData })
+    })
 }
 
 
@@ -139,7 +210,14 @@ function postBT(req, res) {
             console.log(err)
         }
     });
-    res.render('pages/bt')
+    fs.readFile('public/json/bt.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/bt', { bt: surveyData })
+    })
 }
 
 
@@ -152,7 +230,14 @@ function postRTW(req, res) {
             console.log(err)
         }
     });
-    res.render('pages/rtw')
+    fs.readFile('public/json/rtw.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/rtw', { rtw: surveyData })
+    })
 }
 
 function postHCD(req, res) {
@@ -164,7 +249,14 @@ function postHCD(req, res) {
             console.log(err)
         }
     });
-    res.render('pages/hcd')
+    fs.readFile('public/json/hcd.json', 'utf8', function (err, data) {
+        if (err) throw err;
+        let surveyData;
+        if (data) {
+            surveyData = JSON.parse(data)
+        }
+        res.render('pages/hcd', { hcd: surveyData })
+    })
 }
 
 
