@@ -6,7 +6,12 @@ const inputs = document.getElementsByTagName('input');
 const textareas = document.getElementsByTagName('textarea');
 const errorMsg = document.querySelector('.error');
 const submit = document.querySelector('button[type=submit]');
+const markup = `    
+    <p>Je kan helaas nog niet verder.</p>
+    <p>Je bent vergeten om alle velden in te vullen.</p>`
 
+
+errorMsg.insertAdjacentHTML('afterbegin', markup)
 
 function addInvalidBorder() {
     if (form.checkValidity() === false) {
