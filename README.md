@@ -141,6 +141,7 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
 * Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 ## Rubric
-<img src="https://github.com/kiara1404/browser-technologies-2122/blob/main/wiki%20img/rubric.png" width="100%">
+<img src="wiki-img/rubric.png" width="100%">
+
 ## © License
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
