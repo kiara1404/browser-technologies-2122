@@ -10,11 +10,13 @@ const markup = `
     <p>Je kan helaas nog niet verder.</p>
     <p>Je bent vergeten om alle velden in te vullen.</p>`
 
-
+// need to check for support for checkValidility
 errorMsg.insertAdjacentHTML('afterbegin', markup)
 
 function addInvalidBorder() {
+    // need to check for support for checkValidility
     if (form.checkValidity() === false) {
+        // ik gebruik een for loop want deze wordt beter ondersteund dan een .forEach()
         for (let i = 0; i < inputs.length; i += 1) {
             inputs[i].classList.add('invalid')
         }
@@ -28,6 +30,7 @@ function isValid() {
     if (form.checkValidity() === true) {
         form.submit()
     } else {
+        // need to check for support for  classList
         errorMsg.classList.add('show')
     }
 }

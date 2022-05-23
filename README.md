@@ -33,7 +33,8 @@ nodemon run dev
 ## 📋Concept
 
 ## ↳ Wireflow
-<!-- <img src="" alt=""> -->
+<img src="wiki-img/wireflow.pdf" alt="">
+
 ## Features
 * Invullen formulier
 * Versturen formulier
@@ -43,7 +44,7 @@ nodemon run dev
 ### Core Layer ( _HTML_ )
 <img src="wiki-img/html.png" alt="" width="500px">
 Ik ben begonnen met pure HTML. Dit om ervoor te zorgen dat de basis goed en bruikbaar zou zijn. Ik heb wel wat minder goede practices moeten toevoegen zodat de layout bij elke laag hetzelfde eruit zou zien.       
-Normaal gesproken zijn `input` en `label` elementen inline. Ik wilde graag alles onder elkaar hebben dus heb ik er `div` elementen omheen gezet of soms zelfs stiekem een `br`
+Normaal gesproken zijn `input` en `label` elementen inline. Ik wilde graag alles onder elkaar hebben dus heb ik er `div` elementen omheen gezet of soms zelfs stiekem een `br`.
 
 ### Usable layer
 <img src="wiki-img/css.png" alt="" width="500px">
@@ -63,7 +64,7 @@ Voor deze laag wilde ik graag zorgen dat wanneer de gebruiker niet alle velden v
 ## 🧪Browser Tests
 Ik heb mijn applicatie bekeken op verschillende devices.
 
-* #### Google Chrome op  Macbook Pro 2019 
+#### Google Chrome op  Macbook Pro 2019 
 Ik gebruik Google Chrome als mijn standaardbrowser. Hierin werkte alles ook precies hoe ik het wilde. Ik heb ook gebruik gemaakt van de developer tools en toen werkte ook alles.
     * Font wordt ingeladen
     * Gradient werkt
@@ -71,7 +72,7 @@ Ik gebruik Google Chrome als mijn standaardbrowser. Hierin werkte alles ook prec
     * error melding werkt
     * required werkt 
 
-* #### Firefox op Macbook Pro 2019
+#### Firefox op Macbook Pro 2019
 Op Firefox werkte mijn formulier ook naar behoren. Er viel hier niks op en had er geen aanmerkingen op.
     * Font wordt ingeladen
     * Gradient werkt
