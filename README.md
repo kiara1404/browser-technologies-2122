@@ -67,15 +67,13 @@ Ik heb mijn applicatie bekeken op verschillende devices.
 #### Google Chrome op  Macbook Pro 2019 
 Ik gebruik Google Chrome als mijn standaardbrowser. Hierin werkte alles ook precies hoe ik het wilde. Ik heb ook gebruik gemaakt van de developer tools en toen werkte ook alles.
 
-<<<<<<< HEAD
-=======
        * Font wordt ingeladen
        * Gradient werkt
        * focus/invalid/valid/placeholders selectoren werken
        * error melding werkt
        * required werkt 
 
->>>>>>> 1a82031d64edc72c2669918ba1e24340710f37b0
+
 #### Firefox op Macbook Pro 2019
 Op Firefox werkte mijn formulier ook naar behoren. Er viel hier niks op en had er geen aanmerkingen op.
 
