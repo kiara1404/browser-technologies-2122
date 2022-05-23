@@ -58,3 +58,21 @@ form.addEventListener('keyup', () => {
     removeInvalidBorder()
 })
 
+// Lotte  heeft mij geholpen met deze functie : https://github.com/lottekoblens/browser-technologies-2122/blob/main/public/scripts/main.js
+function checkInputs() {
+    form.addEventListener('submit', (e) => {
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i].value.length == 0) {
+                e.preventDefault()
+                alert('Nog niet alle velden zijn ingevuld')
+            }
+        }
+        for (let i = 0; i < textareas.length; i++) {
+            if (textareas[i].value.length == 0) {
+                e.preventDefault()
+                alert('Nog niet alle velden zijn ingevuld')
+            }
+        }
+    })
+}
+checkInputs();
