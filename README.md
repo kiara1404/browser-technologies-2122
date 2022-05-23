@@ -33,7 +33,7 @@ nodemon run dev
 ## 📋Concept
 
 ## ↳ Wireflow
-<img src="wiki-img/wireflow.pdf" alt="">
+<img src="wiki-img/wireflow.png" alt="">
 
 ## Features
 * Invullen formulier
