@@ -49,8 +49,9 @@ function removeInvalidBorder() {
 }
 
 submit.addEventListener('click', function() {
-    isValid()
-    addInvalidBorder()
+    // isValid()
+    // addInvalidBorder()
+    checkInputs();
 })
 
 form.addEventListener('keyup', () => {
@@ -60,7 +61,6 @@ form.addEventListener('keyup', () => {
 
 // Lotte  heeft mij geholpen met deze functie : https://github.com/lottekoblens/browser-technologies-2122/blob/main/public/scripts/main.js
 function checkInputs() {
-    form.addEventListener('submit', function(e) {
         for (var i = 0; i < inputs.length; i++) {
             if (inputs[i].value.length == 0) {
                 e.preventDefault()
@@ -74,5 +74,5 @@ function checkInputs() {
             }
         }
     })
-}
+
 checkInputs();
