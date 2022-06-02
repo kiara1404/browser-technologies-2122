@@ -10,8 +10,32 @@ var markup = `
     <p>Je kan helaas nog niet verder.</p>
     <p>Je bent vergeten om alle velden in te vullen.</p>`
 
-// need to check for support for checkValidility
-errorMsg.insertAdjacentHTML('afterbegin', markup)
+
+function hasFormValidation() {
+
+    return (typeof document.createElement('input').checkValidity == 'function');
+
+};
+if (hasFormValidation()) {
+    // need to check for support for checkValidility
+    errorMsg.insertAdjacentHTML('afterbegin', markup)
+
+
+    submit.addEventListener('click', function (e) {
+        isValid()
+        addInvalidBorder()
+    })
+
+
+    form.addEventListener('keyup', () => {
+        removeErrorMsg()
+        removeInvalidBorder()
+    })
+}
+else {
+    checkInputs();
+}
+
 
 function addInvalidBorder() {
     // need to check for support for checkValidility
@@ -48,17 +72,6 @@ function removeInvalidBorder() {
 
 }
 
-submit.addEventListener('click', function (e) {
-    isValid()
-    addInvalidBorder()
-})
-
-
-form.addEventListener('keyup', () => {
-    removeErrorMsg()
-    removeInvalidBorder()
-})
-
 // Lotte  heeft mij geholpen met deze functie : https://github.com/lottekoblens/browser-technologies-2122/blob/main/public/scripts/main.js
 function checkInputs() {
 
@@ -80,4 +93,3 @@ function checkInputs() {
 
     })
 }
-checkInputs();
