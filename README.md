@@ -92,8 +92,8 @@ De Samsung S7 komt volgens mij uit 2016 en doet het nog erg goed. Ik merkte dat 
     * error melding werkt
     * required werkt 
 #### Ipod Touch
-<img src="wiki-img/IMG_8487.jpg" alt="">
-<img src="wiki-img/IMG_8488.jpg" alt="">
+<img src="wiki-img/IMG_8487.JPG" alt="" width="300px">
+<img src="wiki-img/IMG_8488.JPG" alt="" width="300px">
 
 Ik heb op school nog met een oude Ipod Touch kunnen testen. Het formulier zag er vrij goed uit. 
 * Font werd ingeladen
