@@ -11,11 +11,7 @@ var markup = `
     <p>Je bent vergeten om alle velden in te vullen.</p>`
 
 
-function hasFormValidation() {
 
-    return (typeof document.createElement('input').checkValidity == 'function');
-
-};
 if (hasFormValidation()) {
     // need to check for support for checkValidility
     errorMsg.insertAdjacentHTML('afterbegin', markup)
@@ -36,6 +32,12 @@ else {
     checkInputs();
 }
 
+
+function hasFormValidation() {
+
+    return (typeof document.createElement('input').checkValidity == 'function');
+
+};
 
 function addInvalidBorder() {
     // need to check for support for checkValidility
