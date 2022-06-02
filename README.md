@@ -82,15 +82,6 @@ Op Firefox werkte mijn formulier ook naar behoren. Er viel hier niks op en had e
     * focus/invalid/valid/placeholders selectoren werken
     * error melding werkt
     * required werkt 
- 
- #### Safari op iPhone 12 Pro Max
-Op mijn mobiel zag bijna alles er hetzelfde uit als op desktop. Ik merkte alleen dat de breedte van de fieldsets iets breder waren dan het scherm, dus er zat een minimale horizontale scroll op die ik er niet in wilde hebben. 
-
-    * Font wordt ingeladen
-    * Gradient werkt
-    * focus/invalid/valid/placeholders selectoren werken
-    * error melding werkt
-    * required werkt 
 
 #### Samsung internet op Samsung S7
 De Samsung S7 komt volgens mij uit 2016 en doet het nog erg goed. Ik merkte dat ik de breedte van het formulier niet helemaal klopte. De radio buttons zaten niet meer op één regel. Alle functionaliteiten leken wel te werken.
@@ -100,8 +91,17 @@ De Samsung S7 komt volgens mij uit 2016 en doet het nog erg goed. Ik merkte dat 
     * focus/invalid/valid selectoren werken
     * error melding werkt
     * required werkt 
+#### Ipod Touch
+<img src="wiki-img/IMG_8487.jpg" alt="">
+<img src="wiki-img/IMG_8488.jpg" alt="">
 
-##### Internet Explorer 6 op Windows XP Virtual Machine
+Ik heb op school nog met een oude Ipod Touch kunnen testen. Het formulier zag er vrij goed uit. 
+* Font werd ingeladen
+* Gradient background werkte niet dus fallback kleur werd getoond
+* required werkte niet meer
+* functie die ik geschreven had als fallback voor required werkte ook niet.
+
+#### Internet Explorer 6 op Windows XP Virtual Machine
 Ik kon helaas door Corona niet op school testen met oude devices en niemand in mijn omgeving had een hele oude smartphone waarop ik mij applicatie kon testen. Dus ik heb een virtual machine aangemaakt op mijn laptop en daar laat ik Windows XP op draaien. Daar krijg je standaard Internet Explorer 6 bij.
 <img src="wiki-img/xp.png" alt="">
 Hier kwam ik pas achter hoe fijn wij het hebben met al onze nieuwe devices. Het formulier is wel bruikbaar, je kan het gewoon invullen en versturen.  
